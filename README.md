@@ -7,3 +7,4 @@ This project is designed to practice responsive web design, CSS frameworks, and 
 - Javascript
 - JQuery
 - Bootstrap
+- Node JS
