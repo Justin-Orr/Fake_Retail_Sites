@@ -7,5 +7,3 @@ DISCLAIMER: All code present is content from a training course linked [here](htt
 - HTML
 - CSS
 - Javascript
-- JQuery
-- Bootstrap
