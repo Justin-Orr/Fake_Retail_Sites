@@ -1,4 +1,8 @@
-@import "base/reset.scss";
+@import "base/reset.scss"; /* Must be first */
+
+@import "base/colors.scss";
+@import "base/typography.scss";
+@import "components/icons.scss";
 @import "components/header.scss";
 @import "components/navbar.scss";
 @import "layouts/index_style.scss";

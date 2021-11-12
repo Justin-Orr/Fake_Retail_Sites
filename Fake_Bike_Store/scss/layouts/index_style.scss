@@ -1,15 +1,151 @@
+@import "../base/colors.scss";
+@import "../base/typography.scss";
+
 section {
-  background-color: red;
+  background-color: $fourthColor;
   height: 48px;
 }
 
+.header-ad-content{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  display: flex;
+
+  a {
+    color:black;
+  }
+
+  .callback {
+    margin-left: auto;
+  }
+
+  .livechat {
+    margin-left: 30px;
+  }
+
+}
+
 header {
-  background-color: blue;
+  background-color: white;
   height: 60px;
 }
 
+.header-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 50px;
+  }
+
+  .searchbar-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    .searchbar {
+      height: 24px;
+      width: 620px;
+      border-color: #cacaca;
+      border-style: solid;
+      border-width: thin;
+      display: flex;
+      justify-content: space-between;
+      padding: 4px;
+      box-shadow: 0px 2px 2px #cacaca;
+
+      input {
+        font-family: 'Monda', Arial, Helvetica, sans-serif;
+        height: 16px;
+        border: none;
+        width: 585px;
+        outline: none;
+        align-self: center;
+      }
+
+      button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+      span {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 4px;
+        height: 16px;
+        align-self: center;
+      }
+
+    }
+
+  }
+
+  a {
+    margin-top: auto;
+    margin-bottom: auto;
+    color:black;
+    margin-left: 30px;
+  }
+
+  a:hover {
+    color: $primaryColor;
+  }
+
+  #account-btn {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .visable-dropdown {
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.account-btn:hover div.dropdown-content {display: block;}
+
+  // .account-btn:hover {
+  //   .dropdown-content {
+  //     display: none;
+  //   }
+  // }
+
+  // .dropdown-content {
+  //   display: non
+  // }
+
+}
+
 nav {
-  background-color: green;
+  background-color: $tertiaryColor;
   height: 35px;
 }
 
@@ -20,16 +156,16 @@ nav {
 }
 
 article {
-  background-color: yellow;
+  background-color: black;
   height: 460px;
 }
 
 main {
-  background-color: orange;
+  background-color: $primaryColor;
   height: 385px;
 }
 
 footer {
-  background-color: purple;
+  background-color: $secondaryColor;
   height: 500px;
 }

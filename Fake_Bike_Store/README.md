@@ -9,4 +9,4 @@ This project is designed to practice responsive web design and using SASS files 
 - Javascript
 - SCSS
 
-INSPIRATION / CREDIT: https://www.performancebike.com/
+INSPIRATION: https://www.performancebike.com/
