@@ -129,24 +129,28 @@ header {
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
-.account-btn:hover div.dropdown-content {display: block;}
-
-  // .account-btn:hover {
-  //   .dropdown-content {
-  //     display: none;
-  //   }
-  // }
-
-  // .dropdown-content {
-  //   display: non
-  // }
-
 }
 
 nav {
   background-color: $tertiaryColor;
-  height: 35px;
+
+  .nav-content {
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      margin-top: auto;
+      margin-bottom: auto;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  }
+
 }
 
 .content {

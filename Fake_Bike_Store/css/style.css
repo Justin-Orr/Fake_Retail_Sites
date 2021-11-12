@@ -2123,7 +2123,6 @@ header {
   display: flex;
   justify-content: center;
   /* Change color of dropdown links on hover */
-  /* Show the dropdown menu on hover */
 }
 .header-content img {
   height: 50px;
@@ -2198,13 +2197,24 @@ header {
 .header-content .dropdown-content a:hover {
   background-color: #ddd;
 }
-.header-content .account-btn:hover div.dropdown-content {
-  display: block;
-}
 
 nav {
   background-color: #2b2b2c;
+}
+nav .nav-content {
   height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav .nav-content a {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .content {
