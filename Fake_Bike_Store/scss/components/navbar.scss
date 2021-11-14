@@ -1,0 +1,27 @@
+nav {
+  background-color: $tertiaryColor;
+
+  .nav-content {
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      margin-top: auto;
+      margin-bottom: auto;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+
+      img {
+        height: 26px;
+        padding: 5px; 
+      }
+
+    }
+  }
+
+}

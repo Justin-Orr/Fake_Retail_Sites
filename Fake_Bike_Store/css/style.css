@@ -2074,6 +2074,118 @@ i[class^=fi-rs-]:before, i[class*=" fi-rs-"]:before, span[class^=fi-rs-]:before,
   content: "\f2f2";
 }
 
+header {
+  background-color: white;
+  height: 60px;
+}
+
+.header-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+  /* Change color of dropdown links on hover */
+}
+.header-content img {
+  height: 50px;
+}
+.header-content .searchbar-container {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-content .searchbar-container .searchbar {
+  height: 24px;
+  width: 620px;
+  border-color: #cacaca;
+  border-style: solid;
+  border-width: thin;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  box-shadow: 0px 2px 2px #cacaca;
+}
+.header-content .searchbar-container .searchbar input {
+  font-family: "Monda", Arial, Helvetica, sans-serif;
+  height: 16px;
+  border: none;
+  width: 585px;
+  outline: none;
+  align-self: center;
+}
+.header-content .searchbar-container .searchbar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header-content .searchbar-container .searchbar span {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 4px;
+  height: 16px;
+  align-self: center;
+}
+.header-content a {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  margin-left: 30px;
+}
+.header-content a:hover {
+  color: #d04500;
+}
+.header-content #account-btn {
+  position: relative;
+  display: inline-block;
+}
+.header-content .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.header-content .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.header-content .visable-dropdown {
+  display: block;
+}
+.header-content .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+nav {
+  background-color: #2b2b2c;
+}
+nav .nav-content {
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav .nav-content a {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+nav .nav-content a img {
+  height: 26px;
+  padding: 5px;
+}
+
 body {
   font-family: "Monda", Arial, Helvetica, sans-serif;
 }
@@ -2221,6 +2333,46 @@ nav .nav-content a img {
   padding: 5px;
 }
 
+footer {
+  background-color: #464647;
+  display: block;
+  color: white;
+}
+footer .footer-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-content .footer-section {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-content .footer-section p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+footer .footer-content .footer-section div {
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 1px;
+  width: 195px;
+}
+footer .footer-content .footer-section a {
+  color: white;
+  margin-bottom: 10px;
+}
+footer .footer-content .footer-section a:hover {
+  color: #d04500;
+}
+footer .footer-content #copy_right_statement {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
 .content {
   margin-left: auto;
   margin-right: auto;
@@ -2235,11 +2387,6 @@ article {
 main {
   background-color: #d04500;
   height: 385px;
-}
-
-footer {
-  background-color: #464647;
-  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
