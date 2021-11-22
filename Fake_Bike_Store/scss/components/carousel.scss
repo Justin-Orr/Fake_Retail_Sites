@@ -1,0 +1,56 @@
+#carousel {
+  display: flex;
+  justify-content: center;
+}
+
+#carousel-nav-container {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: 560px;
+  display: flex;
+}
+
+#carousel-nav-container label {
+  margin: 5px;
+}
+
+#rl1 {
+  background-color: #d04500;
+}
+
+.manual-btn {
+  border: 2px solid #d04500;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.manual-btn:hover {
+  background-color: #d04500;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.carousel-content {
+  display: flex;
+  overflow: hidden;
+}
+
+//The image changes are in the carousel.js
+#carousel_image {
+  width: 1024px; //720px
+  height: 460px; //484px
+  background-image: url("../images/bikebanner.jpg"); //Starting Image
+  background-size:cover;
+  transition: background-image 1s;
+}
+
+.slide img {
+  border-color: white;
+  width: 720px;
+  height: 484px;
+}
